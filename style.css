@@ -115,13 +115,13 @@ h2 {
   border-radius: 8px 8px 0 0;
 }
 
- .language_tag {
+.language_tag {
   display: flex;
   justify-content: space-between;
   flex-grow: 1;
 }
 
- .language_tag div {
+.language_tag div {
   background-color: #ebf0ee;
   border-radius: 10%;
   padding: 0 20px 0 20px;
@@ -129,7 +129,7 @@ h2 {
   flex-grow: 1;
 }
 
- .btn__see_project {
+.btn__see_project {
   background-color: #36b37f;
   border-radius: 10px;
   padding: 5px 25px 5px 25px;
@@ -139,17 +139,17 @@ h2 {
   margin: 12px;
 }
 
- .btn__see_project:active {
+.btn__see_project:active {
   background-color: #36b37f;
   border-radius: 10px;
   padding: 5px 25px 5px 25px;
   width: fit-content;
   color: white;
   align-self: center;
-  box-shadow: 0px 8px 16px 0px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px 0 rgba(54, 179, 127, 0.24);
 }
 
- .btn__see_project:pressed {
+.btn__see_project:enabled {
   background-color: #008552;
   border-radius: 10px;
   padding: 5px 25px 5px 25px;
