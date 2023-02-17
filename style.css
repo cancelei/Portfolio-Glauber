@@ -37,7 +37,6 @@ body {
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
   height: 5%;
   margin: 0;
   padding: 0;
@@ -61,8 +60,8 @@ li a {
 }
 
 h1 {
- align-self: center;
- justify-content: center;
+  align-self: center;
+  justify-content: center;
 }
 
 .social__media {
@@ -88,7 +87,7 @@ h1 {
 }
 
 .second__section {
-  padding: 3% !important; 
+  padding: 3% !important;
   flex-grow: 1;
   height: 100%;
 }
@@ -100,12 +99,12 @@ h1 {
   border-radius: 15px !important;
   justify-content: center;
   border: 2px solid grey;
-
 }
+
 .view {
   flex-grow: 1;
   height: 220px;
-  background-color: #EBF0EE;
+  background-color: #ebf0ee;
   border-radius: 15px 15px 0 0 !important;
 }
 
@@ -122,7 +121,7 @@ h1 {
  }
 
  .language_tag div {
-  background-color: #EBF0EE;
+  background-color: #ebf0ee;
   border-radius: 10%;
   padding: 0 20px 0 20px;
   gap: 16px;
@@ -130,7 +129,7 @@ h1 {
  }
 
  .btn__see_project {
-  background-color: #36B37F;
+  background-color: #36b37f;
   border-radius: 10px;
   padding: 5px 25px 5px 25px;
   width: fit-content;
@@ -140,7 +139,7 @@ h1 {
  }
 
  .btn__see_project:active {
-  background-color: #36B37F;
+  background-color: #36b37f;
   border-radius: 10px;
   padding: 5px 25px 5px 25px;
   width: fit-content;
