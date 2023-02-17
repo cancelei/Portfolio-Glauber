@@ -108,18 +108,18 @@ h1 {
   border-radius: 15px 15px 0 0 !important;
 }
 
-.title__view, 
+.title__view,
 h2 {
-flex-grow: 1;
-text-align: center;
-border-radius: 8px 8px 0 0;
- }
+  flex-grow: 1;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
 
  .language_tag {
   display: flex;
   justify-content: space-between;
   flex-grow: 1;
- }
+}
 
  .language_tag div {
   background-color: #ebf0ee;
@@ -127,7 +127,7 @@ border-radius: 8px 8px 0 0;
   padding: 0 20px 0 20px;
   gap: 16px;
   flex-grow: 1;
- }
+}
 
  .btn__see_project {
   background-color: #36b37f;
@@ -137,7 +137,7 @@ border-radius: 8px 8px 0 0;
   color: white;
   align-self: center;
   margin: 12px;
- }
+}
 
  .btn__see_project:active {
   background-color: #36b37f;
@@ -147,7 +147,7 @@ border-radius: 8px 8px 0 0;
   color: white;
   align-self: center;
   box-shadow: 0px 8px 16px 0px rgba(54, 179, 127, 0.24);
- }
+}
 
  .btn__see_project:pressed {
   background-color: #008552;
@@ -156,4 +156,4 @@ border-radius: 8px 8px 0 0;
   width: fit-content;
   color: white;
   align-self: center;
- }
+}
