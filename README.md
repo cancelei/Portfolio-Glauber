@@ -61,7 +61,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- ** HTML**
+- ** Website**
 - ** CSS**
 - ** Linters to automatically check availability to merge on to the main(head) branch.**
 
@@ -85,7 +85,7 @@ Download Project Files from github.
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder, using code Editor of your choise.
 
 ### Install
 
@@ -95,7 +95,7 @@ N/A
 
 ### Usage
 
-N/A
+To run the project, execute the following command: Click on the live server button on your IDE
 
 ### Run tests
 
@@ -122,7 +122,8 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-N/A
+About me Section
+Functioning Contact Form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,10 +137,13 @@ N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
+<li><a href="https://github.com/cancelei/Portfolio-Glauber/issues">OFFICIAL ISSUE PAGE</a></li>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-Ed and Jav helped me in concluding this project, they are part of my current working and standup teams.
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
