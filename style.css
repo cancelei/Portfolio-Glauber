@@ -158,7 +158,6 @@ h2 {
   align-self: center;
 }
 
-
 .tcenter {
   text-align: center;
   padding: 3%;
@@ -198,18 +197,6 @@ h2 {
 .aboutmebottom > div {
   flex-grow: 1;
   padding: 3%;
-}
-
-.btn__see_project:active {
-  margin: auto;
-  justify-content: center;
-  text-align: center;
-  background-color: #c1c7d0;
-  border-radius: 10px;
-  padding: 5px 25px 5px 25px;
-  width: fit-content;
-  color: white;
-  align-self: center;
 }
 
 .maindivlast {
@@ -272,6 +259,7 @@ h2 {
 }
 
 /* For Mobile HTML */
+
 /* For Menu-Mobile HTML */
 
 .menu-mobile {
