@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <h3><b>Cancelei's Hello Project</b></h3>
+  <h3><b>Cancelei's Portfolio Project</b></h3>
 
 </div>
 
@@ -28,10 +28,10 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Simple Hello Project <a name="about-project"></a>
+# 📖 Portfolio Project <a name="about-project"></a>
 
 
-**Simple Hello Project** is simple project that includes a HTML file with corresponding CSS styling, and a backend setup that includes specific linters that verify Html/CSS files for auto-merge capability.
+**Portfolio Building Project** is a website that hosts professional and learning experience information, focusing on WebDeveloper. It contains projects and links to them, contact information, and hardskills including Languages and Frameworks. There are details about Skills that could be handy for a Hiring Decision maker.
 
 ## 🛠 Built With Love and Passion<a name="built-with"></a>
 
@@ -61,15 +61,15 @@
 
 ### Key Features <a name="key-features"></a>
 
-- ** Website**
-- ** CSS**
-- ** Linters to automatically check availability to merge on to the main(head) branch.**
+- ** Contact Information**
+- ** Link tree to Projects**
+- ** Summary of my Resume and more.. **
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- N/A
+- Now: Just available when you live preview from your IDE.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,6 +124,7 @@ N/A
 
 About me Section
 Functioning Contact Form
+Skills update
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
