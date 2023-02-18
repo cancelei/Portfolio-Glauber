@@ -40,7 +40,7 @@ body {
   height: 5%;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background-color: white;
 }
 
 li {
@@ -87,7 +87,7 @@ h1 {
 }
 
 .second__section {
-  padding: 3% !important;
+  padding: 3%;
   flex-grow: 1;
   height: 100%;
 }
@@ -156,4 +156,166 @@ h2 {
   width: fit-content;
   color: white;
   align-self: center;
+}
+
+
+.tcenter {
+  text-align: center;
+  padding: 3%;
+  background-image: url(Assets\Images\illustration-aboutme-mobile.svg);
+}
+
+.aboutbg {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutmetop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.aboutmetop > div {
+  flex-grow: 1;
+  padding: 0;
+}
+
+.aboutmebottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutmebottom > div {
+  flex-grow: 1;
+  padding: 3%;
+}
+
+.btn__see_project {
+  margin: auto;
+  justify-content: center
+  text-align: center;
+  background-color: #c1c7d0;
+  border-radius: 10px;
+  padding: 5px 25px 5px 25px;
+  width: fit-content;
+  color: white;
+  align-self: center;
+}
+
+.maindivlast {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 3%;
+}
+
+.maindivlast > div {
+  flex-grow: 1;
+  padding: 3%;
+}
+
+#languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#languages > div {
+  flex-grow: 1;
+  padding: 3%;
+}
+
+#Frameworks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  border: 20px solid color(black);
+  padding: 1;
+}
+
+
+#Frameworks > div {
+  flex-grow: 1;
+  padding: 3%;
+}
+
+#Skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#Skills > div {
+  flex-grow: 1;
+  padding: 3%;
+}
+
+/* For Mobile HTML */
+
+
+
+
+
+
+
+
+
+
+
+/* For Menu-Mobile HTML */
+
+.menu-mobile {
+  display: grid;
+  flex-direction: column;
+  justify-content: end;
+  background-color: white;
+  width: 25%;
+  height: 80%;
+  position: relative;
+}
+
+.menu-mobile > image,
+h3 {
+  align-items: left;
+  margin: 20px;
+  padding: 20px;
+}
+
+.fieldbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 5px;
+}
+
+.fieldbox > * {
+  flex-grow: 1;
+  padding: 3%;
+  margin: 5px;
 }
