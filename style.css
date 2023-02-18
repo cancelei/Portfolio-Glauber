@@ -179,6 +179,7 @@ h2 {
   margin: 0;
   padding: 0;
 }
+
 .aboutmetop > div {
   flex-grow: 1;
   padding: 0;
@@ -199,7 +200,7 @@ h2 {
   padding: 3%;
 }
 
-.btn__see_project {
+.btn__see_project:active {
   margin: auto;
   justify-content: center;
   text-align: center;
@@ -250,7 +251,6 @@ h2 {
   padding: 1;
 }
 
-
 #Frameworks > div {
   flex-grow: 1;
   padding: 3%;
@@ -272,17 +272,6 @@ h2 {
 }
 
 /* For Mobile HTML */
-
-
-
-
-
-
-
-
-
-
-
 /* For Menu-Mobile HTML */
 
 .menu-mobile {
