@@ -41,6 +41,7 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://css.com/">CSS</a></li>
   </ul>
 </details>
 
@@ -148,6 +149,6 @@ Ed and Jav helped me in concluding this project, they are part of my current wor
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./blob/master/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
