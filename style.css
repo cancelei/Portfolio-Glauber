@@ -1,7 +1,7 @@
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: 'Inter', sans-serif;
 }
 
@@ -16,13 +16,14 @@ html {
   box-sizing: border-box;
 }
 
-/* Header + Nav-bar*/
+/* Header + Nav-bar */
 
 .nav-bar {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
+
 .nav-bar > * {
   margin: 0.5rem 0.5rem 0 0.5rem;
   text-decoration: none;
@@ -68,8 +69,7 @@ html {
   text-decoration: none;
 }
 
-/* Section 2 Start - CARD SECTION*/
-
+/* Section 2 Start - CARD SECTION */
 
 .second-section__button {
   text-align: center;
@@ -96,7 +96,7 @@ html {
   border-radius: 15px;
   justify-content: center;
   border: 2px solid grey;
-  width:auto;
+  width: auto;
   height: auto;
   margin: 5%;
 }
@@ -106,7 +106,6 @@ html {
   height: 35vh;
   background-color: #ebf0ee;
   border-radius: 15px 15px 0 0 !important;
-
 }
 
 .card__title {
@@ -179,8 +178,10 @@ html {
 .section-about__element1 {
   margin: 0;
   padding: 0;
-  /*background-image: url(Assets\Images\illustration-aboutme-mobile.svg);
-*/}
+
+  /* background-image: url(Assets\Images\illustration-aboutme-mobile.svg);
+*/
+}
 
 .aboutmetop > div {
   flex-grow: 1;
@@ -271,14 +272,14 @@ html {
   width: 100%;
   position: relative;
   border-radius: 5px;
-  background: url("./Assets/Images/illustration-contact-form.svg");
-background-repeat: no-repeat;
-background-position: top right;
-height: auto;
+  /*background: url("./Assets/Images/illustration-contact-form.svg");
+  */
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: auto;
 }
 
 .social__media {
   display: flex;
   flex-direction: column;
-
 }
