@@ -52,9 +52,6 @@
     </div>
     <button class="btn__see_project">See project</button>
   </div>
-
-
-
   <div class="card">
     <div class="card__image">BG-IMG of project</div>
     <h3 class="card__title">Multi-post story <br> Gain+Glory</h3>
@@ -66,7 +63,6 @@
     </div>
     <button class="btn__see_project">See project</button>
   </div>
-
   <div class="card">
     <div class="card__image">BG-IMG of project</div>
     <h3 class="card__title">Multi-post story <br> Gain+Glory</h3>
@@ -78,11 +74,10 @@
     </div>
     <button class="btn__see_project">See project</button>
   </div>
-
   <div class="card">
-    <div class="card__image">BG-IMG of project</div>
+    <div class="card__image"></div>
     <h3 class="card__title">Multi-post story <br> Gain+Glory</h3>
-    <div class="card__tags">
+    <div class="card__tags">  
       <div>JS</div>
       <div>Java</div>
       <div>HTML</div>
@@ -94,15 +89,18 @@
 
 <section class="section-about">  
 <div class="section-about__element1"></div><h2>About Me</h2>
-<img src="Assets\Images\aboutmetop.png">
   <p>I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
   don't hestiate to contact me.</p>
-  <div class="aboutmebottom"><img src="Assets\Images\aboutmebottom.png"><button class="btn__see_project">Get My Resume</button><div></div></div>
+  <div class="aboutmebottom">
+    <button class="btn__see_project">Get My Resume</button>
+  </div>
 </section>
+
+<!-- Section of Languages, Skills and Frameworks -->
 
 <section>
 <div class="maindivlast">
-  <div id="languages">
+  <div id="languages" class="maindivlast__skillsLanguagesFrameworks">
     <div><img src="./Assets/Images/icon-languages.svg"></div>
     <div><h2>Languages</h2></div>
     <div class="tags">
@@ -112,7 +110,7 @@
       <div>CSS</div>
     </div>
   </div>
-  <div id="Frameworks">
+  <div id="Frameworks" class="maindivlast__skillsLanguagesFrameworks">
     <div><img src="./Assets/Images/icon-frameworks.svg"></div>
     <div><h2>Frameworks</h2></div>
     <div class="tags">
@@ -123,7 +121,7 @@
       <div>Selenium</div>
     </div>
   </div>
-  <div id="Skills">
+  <div id="Skills" class="maindivlast__skillsLanguagesFrameworks">
     <div><img src="./Assets/Images/icon-skills.svg"></div>
     <div><h2>Skills</h2></div>
     <div class="tags">
@@ -135,23 +133,26 @@
     </div>
 </div>
 </section>
-<section>
+
+<!-- Section Contact Form -->
+<section class="contactform">
   <h4><p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p></h4>
-</section>
-<section Class="contactform">
   <input class="contactform__name" type="text" placeholder="Your name">
   <input class="contactform__email" type="email" placeholder="Your email">
   <textarea class="contactform__message" name="message" id="message" cols="30" rows="10" placeholder="Write your message here">    
   </textarea>
-  <button class="btn__see_project">Get in touch</button>
-  <div class="social__media">
-    <div><img src="Assets\Images\Linkedin icon.svg"></div>
-    <div><img src="Assets\Images\twitter-1.svg"></div>
-    <div><img src="Assets\Images\medium.svg"></div>
-    <div><img src="Assets\Images\angellist-1.svg"></div>
-  </div>
-  <div class="tcenter"><h5>glauber.bannwart@gmail.com</h5></div>
+  <button class="btn__see_project btn-end">Get in touch</button>
+  <ul class="contactform__social">
+    <li><a href="https://linkedin.com"><img src="Assets\Images\Linkedin icon.svg"></a></li>
+    <li><a href="https://twitter.com"><img src="Assets\Images\twitter-1.svg"></a></li>
+    <li><a href="https://medium.com"><img src="Assets\Images\medium.svg"></a></li>
+    <li><a href="https://angelist.com"><img src="Assets\Images\angellist-1.svg"></a></li>
+  </ul>
+  <div class="email"><h5>glauber.bannwart@gmail.com</h5></div>
   <div></div>
 </section>
+<footer>
+  Copyright 2023
+</footer>
 </body>
 </html>
