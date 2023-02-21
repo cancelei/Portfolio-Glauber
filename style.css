@@ -191,7 +191,7 @@ html {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: calc(40/16 * 1rem);
+  font-size: calc(40 / 16 * 1rem);
   line-height: 52px;
 }
 
@@ -210,7 +210,6 @@ html {
   background: url(./Assets/Images/aboutmebottom.png);
   background-repeat: no-repeat;
   text-align: center;
-  align-items: center;
 }
 
 .aboutmebottom > div {
