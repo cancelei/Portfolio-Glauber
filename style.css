@@ -73,7 +73,7 @@ html {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #36B37E;
+  color: #36b37e;
 }
 
 .fist-section__text {
@@ -184,7 +184,7 @@ html {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: calc(12 / 16 * 1rem);
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #3a4a42;
@@ -468,22 +468,6 @@ html {
   align-items: center;
   margin: 1rem 1rem 1rem 1rem;
 }
-.first-section__social {
-  display: flex;
-  justify-content: auto;
-  flex-direction: row;
-  align-items: center;
-  justify-items: center;
-  justify-self: center;
-  margin: 4rem 1rem 4rem 1rem;
-}
-
-.first-section__social > li {
-  justify-items: center;
-  text-decoration: none;
-  margin: 4rem 1rem 4rem 1rem;
-}
-
 
 .contactform__name {
   margin: 8% 4% 1% 4%;
@@ -502,12 +486,8 @@ html {
 .contactform__message {
   margin: 8% 4% 1% 4%;
   align-items: center;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-  background: #FFFFFF;
-  border: 1px solid #60C095;
+  background: #fff;
+  border: 1px solid #60c095;
   border-radius: 4px;
 }
 
