@@ -75,7 +75,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+Get a local clone repo from GitHUb and run npm install.
 
 ### Prerequisites
 
@@ -99,7 +99,10 @@ To run the project, execute the following command: Click on the live server butt
 
 ### Run tests
 
-N/A
+Using linter:
+
+Commands: hint .
+Style
 
 ### Deployment
 
@@ -109,12 +112,15 @@ N/A
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author Glauber Bannwart**
+👤 **Glauber Bannwart**
 
 - GitHub: [@cancelei](https://github.com/cancelei)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/gbannwart)
+
+👤 **Dany Augustin**
+
+- GitHub: [@amiralda](https://github.com/amiralda)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,35 +128,45 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-About me Section
-Functioning Contact Form
-Skills update
+Responsive Website for Mobile, Tablet and PC.
+New Layout for wider screen sizes.
+New Animations to improve User Experience (UX).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-N/A
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page, if there is no known issue, you can co-create it! =)
+
+<li><a href="https://github.com/cancelei/Portfolio-Glauber/issues">OFFICIAL ISSUE PAGE</a></li>
+
+To contribute, select or create a new branch and commit to it. The next step would be opening a Pull Request (PR). 
+
+At this step you can send me a Slack message if needed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
-N/A
+If you like this project please leave a star🤩
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the issues page.
-<li><a href="https://github.com/cancelei/Portfolio-Glauber/issues">OFFICIAL ISSUE PAGE</a></li>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+**Direct Contributors**
+
+- Dany Augustin ([@amiralda](https://github.com/amiralda))
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 > N/A
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ## 📝 License <a name="license"></a>
 
