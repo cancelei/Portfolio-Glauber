@@ -198,6 +198,7 @@ html {
 
 .btn__see_project,
 .btn__see_project:enabled {
+  cursor: pointer;
   background-color: #36b37f;
   border-radius: calc(4 / 16 * 1rem);
   font-family: 'Inter', sans-serif;
