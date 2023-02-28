@@ -53,8 +53,12 @@ html {
   background-position: center;
   background-size: cover;
   min-height: 55vh;
-  max-height: auto;
   width: auto;
+
+  @media (min-width: 768px) {
+    background: url(./Assets/Images/Header-llustration-desktop.svg);  
+    back
+  }
 }
 
 .intro-section__title {
