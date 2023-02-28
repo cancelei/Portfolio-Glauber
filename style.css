@@ -177,11 +177,16 @@ html {
   display: flex;
   justify-content: center;
   flex-grow: 1;
+
+  /* Default value, dont need to use it */
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 2rem 0 0.5rem 0;
+
+  /* margins can be overwritten by the parent */
 }
 
+/* Sugestion: insert information in the parent // using clamp instead of calc() */
 .workcard__tags > * {
   color: #3a4a42;
   background-color: #ebf0ee;
@@ -189,6 +194,8 @@ html {
   padding: 0 0.75rem 0 0.75rem;
   margin: 0.3rem;
   flex-grow: 0;
+
+  /* remove flex-grow */
   text-align: center;
   width: calc(27 / 16 * 1rem);
   height: 1rem;
@@ -196,7 +203,7 @@ html {
   font-style: normal;
   font-weight: 600;
   font-size: calc(12 / 16 * 1rem);
-  line-height: 16px;
+  line-height: 1rem;
   letter-spacing: 0.03em;
 }
 
@@ -361,12 +368,14 @@ html {
 
 /* Section Contact Form */
 
+/* Use a class to store the display flex atribute, instead of repeating */
+
 .contactform {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  width: auto;
+  width: 100%;
   border-radius: 5px;
   height: auto;
   margin: 0;
