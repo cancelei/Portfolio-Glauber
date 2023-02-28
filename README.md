@@ -77,28 +77,6 @@
 
 Get a local clone repo from GitHUb and run npm install.
 
------
-## Getting started
-- Please update the install section with instructions to install project dependencies. E.G `npm install`
-
-## Authors
-- Please remove the comment above the authors. 
-- Please replace `Author Glauber Bannwart` with just `Glauber Bannwart`
-- You can also add your coding partners info in this section as he is also a collaborator in the project
-
-## Future features
-- Please put each feature on a new line with bullet points
-
-## Contributing
-- You have two contributing sections. Please remove the one with `N/A` and put the contributing section above the show your support and acknowledgements sections
-
-## Show your support
-- Please add a message encouraging users to star your project. A message like `If you like this project please leave a star🤩` sounds much better doesn't it?
-
-## Acknowledgements
-- Please add some text about who you would like to acknowledge for this project. If you can't think of anything, you can just list microverse in bullet points
-------
-
 ### Prerequisites
 
 In order to run this project you need:
@@ -121,7 +99,10 @@ To run the project, execute the following command: Click on the live server butt
 
 ### Run tests
 
-N/A
+Using linter:
+
+Commands: hint .
+Style
 
 ### Deployment
 
@@ -130,8 +111,6 @@ N/A
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Glauber Bannwart**
 
@@ -149,9 +128,9 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-About me Section
-Functioning Contact Form
-Skills update
+Responsive Website for Mobile, Tablet and PC.
+New Layout for wider screen sizes.
+New Animations to improve User Experience (UX).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,11 +162,11 @@ If you like this project please leave a star🤩
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 > N/A
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ## 📝 License <a name="license"></a>
 
