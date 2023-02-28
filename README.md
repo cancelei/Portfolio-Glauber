@@ -75,7 +75,29 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+Get a local clone repo from GitHUb and run npm install.
+
+-----
+## Getting started
+- Please update the install section with instructions to install project dependencies. E.G `npm install`
+
+## Authors
+- Please remove the comment above the authors. 
+- Please replace `Author Glauber Bannwart` with just `Glauber Bannwart`
+- You can also add your coding partners info in this section as he is also a collaborator in the project
+
+## Future features
+- Please put each feature on a new line with bullet points
+
+## Contributing
+- You have two contributing sections. Please remove the one with `N/A` and put the contributing section above the show your support and acknowledgements sections
+
+## Show your support
+- Please add a message encouraging users to star your project. A message like `If you like this project please leave a star🤩` sounds much better doesn't it?
+
+## Acknowledgements
+- Please add some text about who you would like to acknowledge for this project. If you can't think of anything, you can just list microverse in bullet points
+------
 
 ### Prerequisites
 
@@ -111,10 +133,15 @@ N/A
 
 > Mention all of the collaborators of this project.
 
-👤 **Author Glauber Bannwart**
+👤 **Glauber Bannwart**
 
 - GitHub: [@cancelei](https://github.com/cancelei)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/gbannwart)
+
+👤 **Dany Augustin**
+
+- GitHub: [@amiralda](https://github.com/amiralda)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,21 +157,31 @@ Skills update
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-N/A
+Contributions, issues, and feature requests are welcome!
 
-## ⭐️ Show your support <a name="support"></a>
+Feel free to check the issues page, if there is no known issue, you can co-create it! =)
 
-N/A
+<li><a href="https://github.com/cancelei/Portfolio-Glauber/issues">OFFICIAL ISSUE PAGE</a></li>
+
+To contribute, select or create a new branch and commit to it. The next step would be opening a Pull Request (PR). 
+
+At this step you can send me a Slack message if needed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome!
+## ⭐️ Show your support <a name="support"></a>
 
-Feel free to check the issues page.
-<li><a href="https://github.com/cancelei/Portfolio-Glauber/issues">OFFICIAL ISSUE PAGE</a></li>
+If you like this project please leave a star🤩
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+**Direct Contributors**
+
+- Dany Augustin ([@amiralda](https://github.com/amiralda))
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
