@@ -24,7 +24,7 @@ html {
   text-decoration: solid;
 }
 
-.nav-bar>* {
+.nav-bar > * {
   margin: 0.5rem 0.5rem 0 0.5rem;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
@@ -34,7 +34,7 @@ html {
   line-height: 28px;
 }
 
-.nav-bar>img {
+.nav-bar > img {
   visibility: visible;
   width: 1.5rem;
   height: 1.5rem;
@@ -98,7 +98,7 @@ html {
   margin: 4rem 1rem 4rem 1rem;
 }
 
-.first-section__social>li {
+.first-section__social > li {
   justify-items: center;
   text-decoration: none;
   margin: 4rem 1rem 4rem 1rem;
@@ -126,7 +126,7 @@ html {
   color: #172b4d;
 }
 
-.second-section__recent-work>div {
+.second-section__recent-work > div {
   width: 48px;
   height: 4px;
   background: #36b37e;
@@ -185,12 +185,8 @@ html {
   /* margins can be overwritten by the parent */
 }
 
-<<<<<<< HEAD
 /* Sugestion: insert information in the parent // using clamp instead of calc() */
 .workcard__tags > * {
-=======
-.workcard__tags>* {
->>>>>>> b54f26cd299e9d2a6ae83587f16c0dccf257afdb
   color: #3a4a42;
   background-color: #ebf0ee;
   border-radius: 0.25rem;
@@ -285,7 +281,7 @@ html {
   box-sizing: border-box;
 }
 
-.section-about>p {
+.section-about > p {
   width: minmax(100px, auto);
   height: 189px;
   font-family: 'Inter', sans-serif;
@@ -297,7 +293,7 @@ html {
   margin: 0 6%;
 }
 
-.section-about>h2 {
+.section-about > h2 {
   margin: 1rem 0 1.5rem 0;
   width: auto;
   font-family: 'Inter', sans-serif;
@@ -322,7 +318,7 @@ html {
   box-sizing: border-box;
 }
 
-.section-languages>div {
+.section-languages > div {
   padding: 3% 0;
   margin: 3% 3%;
   margin-top: 8%;
@@ -350,7 +346,7 @@ html {
   justify-content: center;
 }
 
-.languagescard__tags>li {
+.languagescard__tags > li {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -388,7 +384,7 @@ html {
   text-align: center;
 }
 
-.contactform>h4 {
+.contactform > h4 {
   margin: 1rem 0 1rem 0;
   width: 327px;
   height: 363px;
@@ -412,7 +408,7 @@ html {
   padding: 0;
 }
 
-.contactform__social>*,
+.contactform__social > *,
 .email {
   align-items: center;
   margin: 1rem 1rem 1rem 1rem;
@@ -430,6 +426,7 @@ html {
   align-self: auto;
   height: 48px;
   width: 80%;
+
   /* height: 50px; */
 }
 
@@ -446,7 +443,6 @@ html {
   margin: -6% 0 9% 0;
   width: calc(129 / 16 * 1rem);
   height: calc(48 / 16 * 1rem);
-
 }
 
 /* Section footer */
