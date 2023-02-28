@@ -140,10 +140,6 @@ html {
   padding: 0%;
   max-width: 100vw;
   flex-direction: column;
-  /* background: url(./Assets/Images/aboutmetop.svg);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size:auto; */
 }
 
 .workcard {
@@ -183,7 +179,7 @@ html {
 }
 
 /* Sugestion for later: insert information in the parent // using clamp instead of calc() */
-.workcard__tags *  {
+.workcard__tags * {
   color: #3a4a42;
   background-color: #ebf0ee;
   border-radius: 0.25rem;
@@ -408,7 +404,7 @@ html {
 .email {
   align-items: center;
   margin: 1rem 1rem 1rem 1rem;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
