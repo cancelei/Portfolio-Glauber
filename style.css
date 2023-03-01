@@ -60,8 +60,8 @@ html {
 
 @media only screen and (min-width: 768px) {
   .intro-section {
-  background: url(./Assets/Images/Header-llustration-desktop.svg);
-  width: 100%;
+    background: url(./Assets/Images/Header-llustration-desktop.svg);
+    width: 100%;
   }
 }
 
@@ -170,7 +170,6 @@ html {
 }
 
 .workcard__title {
-  flex-grow: 1;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -280,6 +279,15 @@ html {
   box-sizing: border-box;
 }
 
+/* Background-repeat: 2x(no-repeat) need to be on both screen sizes to work */
+@media only screen and (min-width: 768px) {
+  .about-section {
+    background: url(./Assets/Images/illustration-about-me-2-desktop.svg), url(./Assets/Images/illustration-about\ me-1-desktopaboutmecenter-right.svg);
+    background-position: bottom left, top right;
+    background-repeat: no-repeat, no-repeat;
+  }
+}
+
 .about-section > p {
   width: minmax(100px, auto);
   height: 189px;
@@ -383,6 +391,16 @@ html {
   background-position: bottom right;
   text-align: center;
   padding-top: 10%;
+}
+
+/* Background-repeat: 3x(no-repeat) need to be on both screen sizes to work
+also position with % refering to x and y axis */
+@media only screen and (min-width: 768px) {
+  .contactform {
+    background: url(./Assets/Images/illustration-1-contact-form-desktopdesktopbottom-left.svg), url(./Assets/Images/illustration-2-contact-form-desktopmiddle.svg), url(./Assets/Images/contact\ form-illustratoin-3-desktopbottom-right.svg);
+    background-position: bottom left, 20% 95%, bottom right;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+  }
 }
 
 .contactform > h4 {
