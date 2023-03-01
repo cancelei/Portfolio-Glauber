@@ -54,10 +54,14 @@ html {
   background-size: cover;
   min-height: 55vh;
   width: auto;
+}
 
-  @media (min-width: 768px) {
-    background: url(./Assets/Images/Header-llustration-desktop.svg);  
-    back
+/* Ajust background for wider screens */
+
+@media only screen and (min-width: 768px) {
+  .intro-section {
+  background: url(./Assets/Images/Header-llustration-desktop.svg);
+  width: 100%;
   }
 }
 
