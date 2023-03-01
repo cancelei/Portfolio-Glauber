@@ -45,74 +45,77 @@
     <!-- use alt atribute on img tags -->
   </div>
   <div class="recentwork__Maintitle"><h3>My Recent Works</h3>
-  <div></div> <!-- This is for the green rectangle -->
+    <div></div> <!-- This is for the green rectangle -->
   </div>
-  <div class="workcard">
-    <div class="workcard__image"></div>
-    <h3 class="workcard__title">Multi-Post Stories<br>Gain+Glory</h3>
-    <ul class="workcard__tags">
-      <li>JS</li>
-      <li>Java</li>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-    <button type="button" class="btn__see_project">See project</button>
-  </div>
-  <div class="workcard">
-    <div class="workcard__image"></div>
-    <h3 class="workcard__title">Multi-Post Stories<br>Gain+Glory</h3>
-    <ul class="workcard__tags">
-      <li>JS</li>
-      <li>Java</li>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-    <button type="button" class="btn__see_project">See project</button>
-  </div>
-  <div class="workcard">
-    <div class="workcard__image"></div>
-    <h3 class="workcard__title">Multi-Post Stories<br>Gain+Glory</h3>
-    <ul class="workcard__tags">
-      <li>JS</li>
-      <li>Java</li>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-    <button type="button" class="btn__see_project">See project</button>
-  </div>
-  <div class="workcard">
-    <div class="workcard__image"></div>
-    <h3 class="workcard__title">Multi-Post Stories<br>Gain+Glory</h3>
-    <ul class="workcard__tags">
-      <li>JS</li>
-      <li>Java</li>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-    <button type="button" class="btn__see_project">See project</button>
-  </div>
-  <div class="workcard">
-    <div class="workcard__image"></div>
-    <h3 class="workcard__title">Multi-Post Stories<br>Gain+Glory</h3>
-    <ul class="workcard__tags">
-      <li>JS</li>
-      <li>Java</li>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-    <button type="button" class="btn__see_project">See project</button>
-  </div>
-  <div class="workcard">
-    <div class="workcard__image"></div>
-    <h3 class="workcard__title">Multi-Post Stories<br>Gain+Glory</h3>
-    <ul class="workcard__tags">
-      <li>JS</li>
-      <li>Java</li>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-    <button type="button" class="btn__see_project">See project</button>
-  </div>
+  <!-- Here starts sub tag to encapsulate media queries -->
+  <sub class="media-recentwork-section">
+    <div class="workcard">
+      <div class="workcard__image"></div>
+      <h3 class="workcard__title">Multi-Post Stories<br>Gain+Glory</h3>
+      <ul class="workcard__tags">
+        <li>JS</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+      <button type="button" class="btn__see_project">See project</button>
+    </div>
+    <div class="workcard">
+      <div class="workcard__image"></div>
+      <h3 class="workcard__title">Multi-Post Stories<br>Gain+Glory</h3>
+      <ul class="workcard__tags">
+        <li>JS</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+      <button type="button" class="btn__see_project">See project</button>
+    </div>
+    <div class="workcard">
+      <div class="workcard__image"></div>
+      <h3 class="workcard__title">Multi-Post Stories<br>Gain+Glory</h3>
+      <ul class="workcard__tags">
+        <li>JS</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+      <button type="button" class="btn__see_project">See project</button>
+    </div>
+    <div class="workcard">
+      <div class="workcard__image"></div>
+      <h3 class="workcard__title">Multi-Post Stories<br>Gain+Glory</h3>
+      <ul class="workcard__tags">
+        <li>JS</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+      <button type="button" class="btn__see_project">See project</button>
+    </div>
+    <div class="workcard">
+      <div class="workcard__image"></div>
+      <h3 class="workcard__title">Multi-Post Stories<br>Gain+Glory</h3>
+      <ul class="workcard__tags">
+        <li>JS</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+      <button type="button" class="btn__see_project">See project</button>
+    </div>
+    <div class="workcard">
+      <div class="workcard__image"></div>
+      <h3 class="workcard__title">Multi-Post Stories<br>Gain+Glory</h3>
+      <ul class="workcard__tags">
+        <li>JS</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+      <button type="button" class="btn__see_project">See project</button>
+    </div>
+  </sub>
 </section>
 
 <!-- Section About Me --->
@@ -169,19 +172,23 @@
 <!-- Section Contact Form -->
 
 <section class="contactform">
-  <h4>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
-  <form action="https://formspree.io/f/moqzwaeg" method="POST">
-    <label>
-      <input class="contactform__name" type="text" placeholder="Full Name" maxlength="30" required>
-    </label>
-    <label>
-     <input class="contactform__email" type="email" placeholder="Email Address" required>
-    </label>
-    <label>
-     <textarea class="contactform__message" name="message" id="message" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea>
-    </label>
-     <button type="submit" class="btn__see_project btn-end">Get in touch</button>
-</form>
+  
+    <!-- Here starts sub tag to encapsulate media queries -->
+  <sub class="media-contactform">
+    <h4>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
+    <form action="https://formspree.io/f/moqzwaeg" method="POST">
+      <label>
+        <input class="contactform__name" type="text" placeholder="Full Name" maxlength="30" required>
+      </label>
+      <label>
+      <input class="contactform__email" type="email" placeholder="Email Address" required>
+      </label>
+      <label>
+      <textarea class="contactform__message" name="message" id="message" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea>
+      </label>
+      <button type="submit" class="btn__see_project btn-end">Get in touch</button>
+    </form>
+  </sub>
 
   <ul class="contactform__social">
     <li><a href="https://linkedin.com"><img src="Assets\Images\Linkedin icon.svg"></a></li>

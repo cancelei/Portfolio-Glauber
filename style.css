@@ -162,6 +162,16 @@ html {
   overflow: hidden;
 }
 
+/* Transforms language section into row (PS: using grid-template-columns property) */
+@media only screen and (min-width: 768px) {
+  .media-recentwork-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+  }
+}
+
 .workcard__image {
   flex-grow: 1;
   height: 35vh;
@@ -325,6 +335,15 @@ html {
   box-sizing: border-box;
 }
 
+/* Transforms language section into row (PS: using grid-template-columns property) */
+@media only screen and (min-width: 768px) {
+  .section-languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+  }
+}
+
 .section-languages > div {
   padding: 3% 0;
   margin: 3% 3%;
@@ -404,9 +423,9 @@ also position with % refering to x and y axis */
 }
 
 .contactform > h4 {
-  margin: 1rem 0 1rem 0;
-  width: 327px;
-  height: 363px;
+  margin: 5rem 0;
+  width: auto;
+  height: auto;
   align-self: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -415,6 +434,36 @@ also position with % refering to x and y axis */
   line-height: 52px;
   text-align: center;
   color: #172b4d;
+  max-width: 12ch;
+}
+
+@media only screen and (min-width: 768px) {
+  .media-contactform > h4 {
+    max-width: 25ch;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    text-justify:auto;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    padding-left: 5%;
+  }
+
+  .media-contactform > .btn-end {
+    display: flex;
+    direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .media-contactform {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    /* padding: 5rem 0; */
+  }
+  
 }
 
 .contactform__social {
