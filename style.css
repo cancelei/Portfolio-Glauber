@@ -120,9 +120,10 @@
 
 .intro__arrowdown {
   margin: 0 8% 18% 8%;
+  animation: updownanimation 2s ease infinite;
 }
 
-/* @keyframes .intro__arrowdown {
+@keyframes updownanimation {
   0% {
     transform: translateY(-100%);
   }
@@ -134,9 +135,7 @@
   100% {
     transform: translateY(-100%);
   }
- } */
-
-
+ }
 
 /* Section 2 Recent Work Section */
 
