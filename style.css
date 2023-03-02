@@ -23,7 +23,7 @@
     justify-content: center;
   }
 
-  .desktop-nav-bar > * {
+  .desktop-nav-bar>* {
     margin: 15% 9%;
     font-weight: 600;
     color: #344563;
@@ -33,7 +33,7 @@
   }
 
   .nav-bar,
-  .nav-bar > * {
+  .nav-bar>* {
     display: none;
   }
 }
@@ -44,7 +44,7 @@
   text-decoration: solid;
 }
 
-.nav-bar > * {
+.nav-bar>* {
   margin: 0.5rem 0.5rem 0 0.5rem;
   text-decoration: none;
   font-weight: 600;
@@ -52,7 +52,7 @@
   line-height: 28px;
 }
 
-.nav-bar > img {
+.nav-bar>img {
   visibility: visible;
   width: 1.5rem;
   height: 1.5rem;
@@ -112,7 +112,7 @@
   justify-content: center;
 }
 
-.intro-section__social > li {
+.intro-section__social>li {
   justify-items: center;
   text-decoration: none;
   margin: 4rem 1rem 4rem 1rem;
@@ -121,6 +121,22 @@
 .intro__arrowdown {
   margin: 0 8% 18% 8%;
 }
+
+/* @keyframes .intro__arrowdown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  50% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+ } */
+
+
 
 /* Section 2 Recent Work Section */
 
@@ -131,14 +147,14 @@
   margin-top: 5%;
 }
 
-.recentwork__Maintitle > * {
+.recentwork__Maintitle>* {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
 }
 
-.recentwork__Maintitle > div {
+.recentwork__Maintitle>div {
   width: 48px;
   height: 4px;
   background: #36b37e;
@@ -290,14 +306,14 @@
   }
 }
 
-.about-section > p {
+.about-section>p {
   max-width: clamp(50ch, 60ch, 100ch);
   font-size: 20px;
   line-height: 32px;
   margin: 10% 5%;
 }
 
-.about-section > h2 {
+.about-section>h2 {
   margin: 1rem 0 1.5rem 0;
   width: auto;
   font-weight: 700;
@@ -328,7 +344,7 @@
   }
 }
 
-.section-languages > div {
+.section-languages>div {
   margin: 3% 3%;
   margin-top: 8%;
 }
@@ -354,7 +370,7 @@
   justify-content: center;
 }
 
-.languagescard__tags > li {
+.languagescard__tags>li {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -396,7 +412,7 @@ also position with % refering to x and y axis */
   }
 }
 
-.media-contactform > h4 {
+.media-contactform>h4 {
   margin: 5rem 0;
   font-weight: 700;
   font-size: 40px;
@@ -406,13 +422,13 @@ also position with % refering to x and y axis */
 }
 
 @media only screen and (min-width: 768px) {
-  .media-contactform > h4 {
+  .media-contactform>h4 {
     max-width: 25ch;
     font-size: 30px;
     padding-left: 5%;
   }
 
-  .media-contactform > .btn-end {
+  .media-contactform>.btn-end {
     display: flex;
     direction: column;
   }
@@ -429,7 +445,7 @@ also position with % refering to x and y axis */
   width: auto;
 }
 
-.contactform__social > *,
+.contactform__social>*,
 .email {
   align-items: center;
   margin: 1rem 1rem 1rem 1rem;
