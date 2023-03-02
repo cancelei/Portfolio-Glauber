@@ -2,33 +2,51 @@
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  font-style: normal;
   list-style-type: none;
-}
-
-body {
-  font-family: Inter, serif;
-}
-
-html {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  font-weight: 400;
+  text-align: center;
 }
 
 /* Header + Nav-bar */
 
+.desktop-nav-bar {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop-nav-bar {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .desktop-nav-bar > * {
+    margin: 15% 9%;
+    font-weight: 600;
+    color: #344563;
+    font-style: normal;
+    line-height: 20px;
+    line-height: 110%;
+  }
+
+  .nav-bar,
+  .nav-bar > * {
+    display: none;
+  }
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   text-decoration: solid;
 }
 
 .nav-bar > * {
   margin: 0.5rem 0.5rem 0 0.5rem;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
@@ -38,7 +56,6 @@ html {
   visibility: visible;
   width: 1.5rem;
   height: 1.5rem;
-  right: 12px;
 }
 
 /* First Section */
@@ -53,25 +70,29 @@ html {
   background-position: center;
   background-size: cover;
   min-height: 55vh;
-  max-height: auto;
   width: auto;
 }
 
+/* Ajust background for wider screens */
+
+@media only screen and (min-width: 768px) {
+  .intro-section {
+    background: url(./Assets/Images/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+}
+
 .intro-section__title {
-  text-align: center;
   margin: 4rem 1rem 0 1rem;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
 }
 
 .intro-section__subtitle {
-  text-align: center;
   margin: 1rem 1rem 1rem 1rem;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -80,22 +101,15 @@ html {
 
 .intro-section__text {
   margin: 1rem 1rem 1rem 1rem;
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  max-width: clamp(30ch, 40ch, 50ch);
 }
 
 .intro-section__social {
   display: flex;
-  justify-content: auto;
   flex-direction: row;
-  align-items: center;
-  justify-items: center;
-  justify-self: center;
-  margin: 4rem 1rem 4rem 1rem;
+  justify-content: center;
 }
 
 .intro-section__social > li {
@@ -104,22 +118,20 @@ html {
   margin: 4rem 1rem 4rem 1rem;
 }
 
-/* Section 2 Recent Work Section */
-
-.recentwork__button {
-  text-align: center;
-  margin: 0 8%;
+.intro__arrowdown {
+  margin: 0 8% 18% 8%;
 }
 
+/* Section 2 Recent Work Section */
+
 .recentwork__Maintitle {
-  text-align: center;
-  margin-top: 5%;
-  margin-bottom: 3%;
-  display: flex;
   flex-direction: column;
+  display: flex;
   align-items: center;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
+  margin-top: 5%;
+}
+
+.recentwork__Maintitle > * {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -132,14 +144,11 @@ html {
   background: #36b37e;
   border-radius: 24px;
   margin: 4rem 1rem 1rem 1rem;
-  align-items: center;
 }
 
 .recentwork-section {
-  display: grid;
-  padding: 0%;
-  max-width: 100vw;
-  flex-direction: column;
+  padding: 0% 5%;
+  max-width: 100%;
 }
 
 .workcard {
@@ -154,6 +163,20 @@ html {
   overflow: hidden;
 }
 
+/* Transforms language section into row (PS: using grid-template-columns property) */
+@media only screen and (min-width: 768px) {
+  .media-recentwork-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+  }
+
+  .workcard__title {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
 .workcard__image {
   flex-grow: 1;
   height: 35vh;
@@ -162,20 +185,20 @@ html {
 }
 
 .workcard__title {
-  flex-grow: 1;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  font-weight: 600;
   border-radius: 0.5rem 0.5rem 0 0;
   min-height: 5vh;
   margin: 2rem 0 0.5rem 0;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .workcard__tags {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: nowrap;
+  width: auto;
 }
 
 /* Sugestion for later: insert information in the parent // using clamp instead of calc() */
@@ -185,11 +208,8 @@ html {
   border-radius: 0.25rem;
   padding: 0 0.75rem 0 0.75rem;
   margin: 0.3rem;
-  text-align: center;
-  width: calc(27 / 16 * 1rem);
+  width: auto;
   height: 1rem;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: calc(12 / 16 * 1rem);
   line-height: 1rem;
@@ -201,8 +221,6 @@ html {
   cursor: pointer;
   background-color: #36b37f;
   border-radius: calc(4 / 16 * 1rem);
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: calc(15 / 16 * 1rem);
   line-height: calc(24 / 16 * 1rem);
@@ -214,15 +232,12 @@ html {
   width: calc(159 / 16 * 1rem);
   height: calc(48 / 16 * 1rem);
   margin: 1.5rem;
-  padding: 0;
 }
 
 .btn__see_project:hover,
 .btn__see_project:focus {
   background-color: #36b37f;
   border-radius: calc(4 / 16 * 1rem);
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: calc(15 / 16 * 1rem);
   line-height: calc(24 / 16 * 1rem);
@@ -235,14 +250,11 @@ html {
   height: calc(48 / 16 * 1rem);
   box-shadow: 0 8px 16px 0 rgba(54, 179, 127, 0.24);
   margin: 1.5rem;
-  padding: 0;
 }
 
 .btn__see_project:active {
   background-color: #008552;
   border-radius: calc(4 / 16 * 1rem);
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: calc(15 / 16 * 1rem);
   line-height: calc(24 / 16 * 1rem);
@@ -254,7 +266,6 @@ html {
   width: calc(159 / 16 * 1rem);
   height: calc(48 / 16 * 1rem);
   margin: 1.5rem;
-  padding: 0;
 }
 
 /* SECTION ABOUT ME */
@@ -262,39 +273,39 @@ html {
 .about-section {
   display: flex;
   flex-direction: column;
-  text-align: center;
   background: url(./Assets/Images/aboutmebottom.png), url(./Assets/Images/aboutmetop.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: bottom left, top right;
   min-height: 60vh;
   justify-content: space-between;
-  margin-bottom: 0;
-  box-sizing: border-box;
+  align-items: center;
+}
+
+/* Background-repeat: 2x(no-repeat) need to be on both screen sizes to work */
+@media only screen and (min-width: 768px) {
+  .about-section {
+    background: url(./Assets/Images/illustration-about-me-2-desktop.svg), url(./Assets/Images/illustration-about\ me-1-desktopaboutmecenter-right.svg);
+    background-position: bottom left, top right;
+    background-repeat: no-repeat, no-repeat;
+  }
 }
 
 .about-section > p {
-  width: minmax(100px, auto);
-  height: 189px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  max-width: clamp(50ch, 60ch, 100ch);
   font-size: 20px;
   line-height: 32px;
-  text-align: center;
-  margin: 0 6%;
+  margin: 10% 5%;
 }
 
 .about-section > h2 {
   margin: 1rem 0 1.5rem 0;
   width: auto;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   height: auto;
-  margin-bottom: 10%;
-  margin-top: 8%;
+  margin-bottom: 5%;
+  margin-top: 4%;
 }
 
 /* Section of Languages, Skills and Frameworks */
@@ -303,14 +314,21 @@ html {
   display: grid;
   flex-direction: column;
   align-items: center;
-  padding: 0%;
   margin-top: 8%;
   flex-basis: 100%;
-  box-sizing: border-box;
+  padding: 0% 5%;
+}
+
+/* Transforms language section into row (PS: using grid-template-columns property) */
+@media only screen and (min-width: 768px) {
+  .section-languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+  }
 }
 
 .section-languages > div {
-  padding: 3% 0;
   margin: 3% 3%;
   margin-top: 8%;
 }
@@ -323,7 +341,6 @@ html {
   border: calc(1 / 16 * 1rem) solid #c1c7d0;
   border-radius: 0.5rem;
   justify-content: space-around;
-  width: minmax(auto, 30rem);
   height: 75vh;
 }
 
@@ -346,26 +363,19 @@ html {
   padding: 0 0.3rem 0 0.3rem;
   margin: 0.3rem;
   flex-wrap: wrap;
-  text-align: center;
   min-width: 60px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
   font-weight: 600;
   color: #36b37e;
   width: fit-content;
   height: 35px;
 }
 
-/* Section Contact Form */
-
-/* Use a class to store the display flex atribute, instead of repeating */
+/* Section Contact Form OBS: Use a class to store the display flex atribute, instead of repeating */
 
 .contactform {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
   width: 100%;
   border-radius: 5px;
   height: auto;
@@ -373,40 +383,62 @@ html {
   background: url("./Assets/Images/illustration-contact-form.svg");
   background-repeat: no-repeat;
   background-position: bottom right;
-  text-align: center;
   padding-top: 10%;
 }
 
-.contactform > h4 {
-  margin: 1rem 0 1rem 0;
-  width: 327px;
-  height: 363px;
-  align-self: center;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
+/* Background-repeat: 3x(no-repeat) need to be on both screen sizes to work
+also position with % refering to x and y axis */
+@media only screen and (min-width: 768px) {
+  .contactform {
+    background: url(./Assets/Images/illustration-1-contact-form-desktopdesktopbottom-left.svg), url(./Assets/Images/illustration-2-contact-form-desktopmiddle.svg), url(./Assets/Images/contact\ form-illustratoin-3-desktopbottom-right.svg);
+    background-position: bottom left, 20% 95%, bottom right;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+  }
+}
+
+.media-contactform > h4 {
+  margin: 5rem 0;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  text-align: center;
   color: #172b4d;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .media-contactform > h4 {
+    max-width: 25ch;
+    font-size: 30px;
+    padding-left: 5%;
+  }
+
+  .media-contactform > .btn-end {
+    display: flex;
+    direction: column;
+  }
+
+  .media-contactform {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .contactform__social {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+  width: auto;
 }
 
 .contactform__social > *,
 .email {
   align-items: center;
   margin: 1rem 1rem 1rem 1rem;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.email {
+  color: #42526e;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -414,15 +446,12 @@ html {
 
 .contactform__name {
   margin: 9% 4% 5% 4%;
-  align-self: auto;
   height: 48px;
   width: 80%;
   padding-left: 4%;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 15px;
   line-height: 24px;
+  text-align: left;
 }
 
 .contactform__email {
@@ -431,13 +460,9 @@ html {
   height: 48px;
   width: 80%;
   padding-left: 4%;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-
-  /* height: 50px; */
+  text-align: left;
 }
 
 .contactform__message {
@@ -449,11 +474,9 @@ html {
   width: 80%;
   padding-left: 4%;
   padding-top: 2%;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 15px;
   line-height: 24px;
+  text-align: left;
 }
 
 .btn-end {
@@ -462,9 +485,26 @@ html {
   height: calc(48 / 16 * 1rem);
 }
 
+@media only screen and (min-width: 768px) {
+  .email {
+    display: none;
+  }
+
+  .footer-bg {
+    background: url(./Assets/Images/Rectangle\ 42footer-rectagle.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    width: 100vw;
+  }
+}
+
 /* Section footer */
 
 footer {
-  text-align: center;
   margin: 8% 4% 1% 4%;
 }

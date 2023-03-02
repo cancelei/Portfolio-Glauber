@@ -63,13 +63,13 @@
 
 - ** Contact Information**
 - ** Link tree to Projects**
-- ** Summary of my Resume and more.. **
+- ** Responsiveness with other Screen Sizes **
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Now: Just available when you live preview from your IDE.
+- Now: Just available when you preview from your IDE with live server extension.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,10 +99,12 @@ To run the project, execute the following command: Click on the live server butt
 
 ### Run tests
 
-Using linter:
+Using Linters:
 
-Commands: hint .
-Style
+Commands: 
+<code>npx hint . </code>
+
+<code>npx Stylelint "**/*.{css,scss}"</code>
 
 ### Deployment
 
@@ -128,9 +130,10 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-Responsive Website for Mobile, Tablet and PC.
-New Layout for wider screen sizes.
-New Animations to improve User Experience (UX).
+- New Animations to improve User Experience (UX).
+- Javascript Features, like responsive mobile menu, and more..
+- Updating Projects and Social Media Handle links, and other minor updates;
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,7 +153,7 @@ At this step you can send me a Slack message if needed.
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please leave a star🤩
+If you like this project please leave a star 🤩
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
