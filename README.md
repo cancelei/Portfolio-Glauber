@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Now: Just available when you preview from your IDE with live server extension.
+- [LINK](https://cancelei.github.io/Portfolio-Glauber/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
