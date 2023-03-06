@@ -48,7 +48,7 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li>N/A</li>
+    <li>Hosted on Github Pages</li>
   </ul>
 </details>
 
@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [LINK](https://cancelei.github.io/Portfolio-Glauber/)
+- [LINK to Demo](https://cancelei.github.io/Portfolio-Glauber/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
