@@ -494,6 +494,11 @@ also position with % refering to x and y axis */
   text-align: left;
 }
 
+.required::after::first-letter {
+  /* content: "*"; */
+  color: red;
+}
+
 .btn-end {
   margin: -6% 0 9% 0;
   width: calc(129 / 16 * 1rem);
