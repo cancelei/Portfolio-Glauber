@@ -120,6 +120,21 @@
 
 .intro__arrowdown {
   margin: 0 8% 18% 8%;
+  animation: updownanimation 2s ease infinite;
+}
+
+@keyframes updownanimation {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  50% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
 }
 
 /* Section 2 Recent Work Section */
@@ -412,10 +427,10 @@ also position with % refering to x and y axis */
     padding-left: 5%;
   }
 
-  .media-contactform > .btn-end {
+  /* .media-contactform > .btn-end {
     display: flex;
     direction: column;
-  }
+  } */
 
   .media-contactform {
     display: flex;
