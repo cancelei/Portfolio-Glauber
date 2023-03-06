@@ -83,6 +83,8 @@ In order to run this project you need:
 
 Download Project Files from github.
 
+Or click on view Demo Link.
+
 ### Setup
 
 Clone this repository to your desired folder, using code Editor of your choise.
