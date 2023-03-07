@@ -124,6 +124,11 @@ N/A
 - GitHub: [@amiralda](https://github.com/amiralda)
 
 
+👤 **Adeyemi Olusola**
+
+- GitHub: [@emarkees](https://github.com/emarkees)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
