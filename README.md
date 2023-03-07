@@ -125,7 +125,7 @@ N/A
 
 - GitHub: [@amiralda](https://github.com/amiralda)
 
-emarkees
+
 👤 **Adeyemi Olusola**
 
 - GitHub: [@emarkees](https://github.com/emarkees)
