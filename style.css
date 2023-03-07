@@ -96,7 +96,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #36b37e;
+  color: #22ab72;
 }
 
 .intro-section__text {
@@ -411,7 +411,7 @@ also position with % refering to x and y axis */
   }
 }
 
-.media-contactform > h4 {
+.media-contactform > h2 {
   margin: 5rem 0;
   font-weight: 700;
   font-size: 40px;
@@ -421,7 +421,7 @@ also position with % refering to x and y axis */
 }
 
 @media only screen and (min-width: 768px) {
-  .media-contactform > h4 {
+  .media-contactform > h2 {
     max-width: 25ch;
     font-size: 30px;
     padding-left: 5%;
@@ -492,6 +492,11 @@ also position with % refering to x and y axis */
   font-size: 15px;
   line-height: 24px;
   text-align: left;
+}
+
+.required::after::first-letter {
+  /* content: "*"; */
+  color: red;
 }
 
 .btn-end {
