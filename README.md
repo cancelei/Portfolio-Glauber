@@ -48,7 +48,7 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li>N/A</li>
+    <li>Hosted on Github Pages</li>
   </ul>
 </details>
 
@@ -61,7 +61,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- ** Contact Information**
+- ** Accessible Website with Contact Information**
 - ** Link tree to Projects**
 - ** Responsiveness with other Screen Sizes **
 
@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Now: Just available when you preview from your IDE with live server extension.
+- [LINK to Demo](https://cancelei.github.io/Portfolio-Glauber/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,6 +82,8 @@ Get a local clone repo from GitHUb and run npm install.
 In order to run this project you need:
 
 Download Project Files from github.
+
+Or click on view Demo Link.
 
 ### Setup
 
@@ -166,7 +168,8 @@ If you like this project please leave a star 🤩
 
 **Direct Contributors**
 
-- Dany Augustin ([@amiralda](https://github.com/amiralda))
+- Dany Augustin
+- Adeyemi Olusola
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
