@@ -495,10 +495,6 @@ also position with % refering to x and y axis */
   text-align: left;
 }
 
-.displaynone {
-  color:#fff;
-}
-
 .required::after::first-letter {
   /* content: "*"; */
   color: red;
