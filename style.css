@@ -411,7 +411,7 @@ also position with % refering to x and y axis */
   }
 }
 
-.media-contactform > h4 {
+.media-contactform > h2 {
   margin: 5rem 0;
   font-weight: 700;
   font-size: 40px;
@@ -421,7 +421,7 @@ also position with % refering to x and y axis */
 }
 
 @media only screen and (min-width: 768px) {
-  .media-contactform > h4 {
+  .media-contactform > h2 {
     max-width: 25ch;
     font-size: 30px;
     padding-left: 5%;

@@ -148,8 +148,8 @@
     </ul>
   </div>
 
-  <div class="section-languages-card" alt="Icon showing Frameworks">
-   <img src="./Assets/Images/icon-frameworks.svg">
+  <div class="section-languages-card">
+   <img src="./Assets/Images/icon-frameworks.svg" alt="Icon showing Frameworks">
     <h2>Frameworks</h2>
     <ul class="languagescard__tags">
       <li>Bootstrap</li>
@@ -160,8 +160,8 @@
     </ul>
   </div>
 
-  <div class="section-languages-card" alt="Icon showing Skills">
-    <img src="./Assets/Images/icon-skills.svg">
+  <div class="section-languages-card">
+    <img src="./Assets/Images/icon-skills.svg" alt="Icon showing Skills">
     <h2>Skills</h2>
     <ul class="languagescard__tags">
       <li>Codekit</li>
@@ -181,19 +181,21 @@
   
     <!-- Here starts sub tag to encapsulate media queries -->
   <sub class="media-contactform">
-    <h4>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
+    <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
     <form action="https://formspree.io/f/moqzwaeg" method="POST">
       <label for="name" class="displaynone">
-
-        <input id="name" class="required contactform__name" type="text" aria-label="Insert Full Name" placeholder="Full Name *" maxlength="30" required>
+        <div>
+          <input id="name" class="required contactform__name" type="text" aria-label="Insert Full Name" placeholder="Full Name *" maxlength="30" required>
+        </div>
       </label>
-      <label for="email" class="displaynone">22
+      <label for="email" class="displaynone">
 
       <input id="email" class="contactform__email" type="email" aria-label="Insert your Email" placeholder="Email Address*" required>
       </label>
-      <label for="message" class="displaynone">33
-
-      <textarea id="message" class="contactform__message" aria-label="Enter your message" name="message" id="message" cols="30" rows="10" placeholder="Enter text here (Required)*" maxlength="500" required></textarea>
+      <label for="message" class="displaynone">
+        <div>
+          <textarea id="message" class="contactform__message" aria-label="Enter your message" name="message" id="message" cols="30" rows="10" placeholder="Enter text here (Required)*" maxlength="500" required></textarea>
+        </div>
       </label>
       <button type="submit" class="btn__see_project btn-end">Get in touch</button>
     </form>
