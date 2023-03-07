@@ -61,7 +61,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- ** Contact Information**
+- ** Accessible Website with Contact Information**
 - ** Link tree to Projects**
 - ** Responsiveness with other Screen Sizes **
 
@@ -125,6 +125,10 @@ N/A
 
 - GitHub: [@amiralda](https://github.com/amiralda)
 
+emarkees
+👤 **Adeyemi Olusola**
+
+- GitHub: [@emarkees](https://github.com/emarkees)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,7 +167,8 @@ If you like this project please leave a star 🤩
 
 **Direct Contributors**
 
-- Dany Augustin ([@amiralda](https://github.com/amiralda))
+- Dany Augustin
+- Adeyemi Olusola
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
